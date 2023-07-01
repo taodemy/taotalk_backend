@@ -7,7 +7,6 @@ const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middleware = jsonServer.defaults();
 
-
 const PORT = process.env.JSON_SERVER_PORT;
 
 server.use(middleware);
