@@ -1,52 +1,26 @@
-{
-    "posts": [
+{ 
+  "indexPage":
+    {
+    "hero":
       {
-        "id": 1,
-        "title": "description of this file",
-        "author": "JASON",
-        "comments": {
-          "body": "this is the test data for json server, check detail in https://www.npmjs.com/package/json-server#getting-started"
-        }
+        "introduction":"AI-POWERED CHATTING PLATFORM",
+        "heading":"Learning and teaching online, made easy.",
+        "text":"Practice your English and learn new things with the platform."
       },
+    "language":
       {
-        "id": 2,
-        "title": "config used for this project",
-        "author": "test2",
-        "comments": {
-          "Set port": "--port, -p "
-        }
+        "heading":"Learn a language in a playful way",
+        "text":"Make learning words more fun with mini-games"
       },
+    "vocabulary":
       {
-        "id": 3,
-        "title": "test3",
-        "author": "test3",
-        "comments": {
-          "body": "you can use other config to play with, such as:--host, -H to Set host, --static, -s to Set static files directory"
-        }
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
+        "heading":"Increase your vocabulary",
+        "text":"Traditional and new effective approaches to word study"
       },
-      {
-        "id": 22,
-        "body": "22",
-        "postId": 2
-      },
-      {
-        "body": "body text from postman",
-        "postId": 333,
-        "id": 23
-      },
-      {
-        "body": "postman without id and postId",
-        "id": 24
-      }
-    ],
-    "profile": {
-      "name": "typicode"
+    "progress":
+    {
+      "heading":"Watch your progress every day",
+      "text":"Save statistics on your achievements, words learned, and mistakes"
     }
+  }
 }
